@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mistério na Praia Perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="Cenário inicial">
+            <p>Você encontra uma mensagem misteriosa enterrada na areia da praia, dizendo para "seguir as conchas até a caverna da maré".</p>
+            <button class="btn-proximo" data-proximo="1">Seguir as conchas</button>
+            <button class="btn-proximo" data-proximo="2">Perguntar aos pescadores</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <img src="cenario-passo1.webp" alt="Conchas na praia">
+            <p>As conchas levam a uma pequena caverna escondida pelas marés. Dentro, você vê duas passagens.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir a passagem da direita</button>
+            <button class="btn-proximo" data-proximo="4">Seguir a passagem da esquerda</button>
+        </div>
+        
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo2.jpeg" alt="Pescadores na praia">
+            <p>Os pescadores dizem que há uma lenda sobre um baú escondido nas cavernas, guardado por um enigma antigo.</p>
+            <button class="btn-proximo" data-proximo="5">Ir para as cavernas</button>
+            <button class="btn-proximo" data-proximo="6">Procurar outra pista na vila</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <img src="cenario-passo3.jpg" alt="Passagem direita">
+            <p>A passagem leva a uma sala com uma inscrição antiga dizendo: "A chave para o tesouro está na verdade oculta".</p>
+            <button class="btn-proximo" data-proximo="7">Tentar decifrar a inscrição</button>
+            <button class="btn-proximo" data-proximo="6">Retornar e procurar outra pista</button>
+        </div>
+        
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4.jpg" alt="Passagem esquerda">
+            <p>Você encontra uma porta de pedra trancada com símbolos. Parece que você precisa de uma chave especial.</p>
+            <button class="btn-proximo" data-proximo="8">Procurar uma chave</button>
+            <button class="btn-proximo" data-proximo="2">Voltar à praia para mais informações</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="cenario-passo5.jpg" alt="Entrada da caverna">
+            <p>Você chega à entrada da caverna e sente uma brisa fria. Lá dentro, uma leve luz brilha ao fundo.</p>
+            <button class="btn-proximo" data-proximo="1">Entrar na caverna</button>
+        </div>
+        
+        <div class="passo" id="passo-6">
+            <img src="cenario-passo6.jpg" alt="Pista na vila">
+            <p>Na vila, um ancião menciona que o tesouro só pode ser encontrado por quem resolver o enigma do "guardião da praia".</p>
+            <button class="btn-proximo" data-proximo="7">Procurar pelo enigma do guardião</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="cenario-passo7.jpg" alt="Inscrição enigmática">
+            <p>Após decifrar a inscrição, você descobre uma chave secreta escondida na areia ao lado.</p>
+            <button class="btn-proximo" data-proximo="8">Pegar a chave e abrir a porta</button>
+        </div>
+        
+        <div class="passo" id="passo-8">
+            <img src="cenario-passo8.jpg" alt="Porta misteriosa">
+            <p>A chave se encaixa e a porta se abre para revelar uma sala repleta de moedas antigas e um mapa de um segundo tesouro.</p>
+            <button class="btn-proximo" data-proximo="9">Examinar o mapa</button>
+            <button class="btn-proximo" data-proximo="10">Sair com o tesouro</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="cenario-passo9.jpg" alt="Mapa do segundo tesouro">
+            <p>O mapa aponta para outra ilha, mas essa é uma história para outra aventura. Parabéns, você encontrou o primeiro tesouro!</p>
+            <button class="btn-proximo" data-proximo="11">Ver mensagem final</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="cenario passo final.png" alt="Tesouro final">
+            <p>Parabéns! Você completou a aventura e levou o tesouro. Lembre-se de que a jornada é tão importante quanto o destino!</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar a aventura</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Agradecemos por jogar! Que novas aventuras o esperem e que você nunca deixe de explorar.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>

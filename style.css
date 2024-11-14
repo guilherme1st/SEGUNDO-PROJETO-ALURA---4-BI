@@ -1,0 +1,33 @@
+body {
+    background-color: #253500;
+    color: rgb(254, 255, 255);
+    font-family: "Caveat", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: rgb(8, 8, 8);
+    color: white;
+    font-family: "Geist", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
